@@ -21,8 +21,12 @@ Before running the project, you must create a Google Cloud Service Account with 
 9. Place the file in your project and reference it in `ws_speech_to_text.py`. Or create an .env environment.
 
 ---
+
 ## Wiring
+<img src="images/microphone_wiring.png" alt="FireBeetle ESP32-E Wiring" width="400">
+
 ---
+
 ## Running the Speech-to-Text Server
 
 Make sure your laptop (Python server) and ESP32 are on the same Wi-Fi network.
@@ -89,5 +93,6 @@ Now you can speak into the microphone and see real-time transcription.
 | Python Server | Receives audio and transcribes with Google Cloud |
 | Google Cloud  | Provides Speech-to-Text model                    |
 | WebSocket     | Enables real-time streaming communication        |
+
 
 
