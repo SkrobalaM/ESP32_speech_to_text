@@ -18,7 +18,7 @@ Before running the project, you must create a Google Cloud Service Account with 
 6. Open your new **Service Account**.
 7. Go to the **Keys** tab → click **Add key → Create new key → JSON**.
 8. Download the generated **JSON credentials file**.
-9. Place the file in your project and reference it in `ws_speech_to_text.py`.
+9. Place the file in your project and reference it in `ws_speech_to_text.py`. Or create an .env environment.
 
 ---
 ## Wiring
@@ -89,4 +89,5 @@ Now you can speak into the microphone and see real-time transcription.
 | Python Server | Receives audio and transcribes with Google Cloud |
 | Google Cloud  | Provides Speech-to-Text model                    |
 | WebSocket     | Enables real-time streaming communication        |
+
 
