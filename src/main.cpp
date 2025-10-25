@@ -13,8 +13,8 @@ const uint16_t WS_PORT = 8765;
 const char* WS_PATH = "/audio";
 
 // I2S
-#define I2S_WS   26
-#define I2S_SCK  25
+#define I2S_WS   25
+#define I2S_SCK  26
 #define I2S_SD   35
 
 // Audio settings
